@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "@fr8/gatsby-worksapce",
+  "alias": "@fr8/gatsby-worksapce",
+  "public": true,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "packages/example/public"
+      }
+    },
+    {
+      "src": "fonts/**/*.{woff2,ttf}",
+      "use": "@now/static"
+    }
+  ]
+}
