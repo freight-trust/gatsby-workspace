@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '@fr8/gatsby-workspace/src/components/Footer';
+import Footer from 'freight-trust-gatsby-workspace/src/components/Footer';
 
 const Content = ({ buildTime }) => (
   <>
@@ -9,7 +9,7 @@ const Content = ({ buildTime }) => (
     </p>
     <p>
       By importing the <strong>Footer</strong> component from
-      @fr8/gatsby-workspace, we can supply our own props.
+      freight-trust-gatsby-workspace, we can supply our own props.
     </p>
     <p>
       The default export from a shadowed component will replace that component

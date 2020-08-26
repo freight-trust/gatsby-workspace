@@ -4,17 +4,17 @@ We use [`yarn`](https://classic.yarnpkg.com/lang/en/) to manage our dependencies
 
 ## TLDR
 
-1. New *theme* dependency: `yarn workspace @fr8/gatsby-workspace add my-package`
+1. New *theme* dependency: `yarn workspace freight-trust-gatsby-workspace add my-package`
 1. New *dev* dependency: `yarn add -D -W my-package`
 1. Update dependencies: `yarn upgrade-interactive`
 1. Update dependencies (include breaking/non-semver): `yarn upgrade-interactive --latest`
-1. Remove dependency: `yarn workspace @fr8/gatsby-workspace remove my-package` or `yarn -W remove my-package` for dev dependencies.
+1. Remove dependency: `yarn workspace freight-trust-gatsby-workspace remove my-package` or `yarn -W remove my-package` for dev dependencies.
 1. Resolve merge conflict in `yarn.lock`: `yarn`
-1. Update package in both `yarn.lock` and `package.json`: `yarn workspace @fr8/gatsby-workspace add existing-package` or `yarn add -W -D existing-package` for dev dependencies
+1. Update package in both `yarn.lock` and `package.json`: `yarn workspace freight-trust-gatsby-workspace add existing-package` or `yarn add -W -D existing-package` for dev dependencies
 
 ## Workspaces
 
-This project uses [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) to keep our two "packages" in sync (the example app and the Gatsby theme itself. If you're in the project's root and want to run a command in a specific workspace you can run `yarn workspace X run my-command`. For example, `yarn workspace @fr8/gatsby-workspace remove my-speciall-dependency`.
+This project uses [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) to keep our two "packages" in sync (the example app and the Gatsby theme itself. If you're in the project's root and want to run a command in a specific workspace you can run `yarn workspace X run my-command`. For example, `yarn workspace freight-trust-gatsby-workspace remove my-speciall-dependency`.
 
 Dev dependencies (linting, formatting etc.) aren't managed in either of the packages, their managed at the root of the project. However, if you try to run `yarn add my-dependency` in the root, yarn will ask you to pass the `-W` flag so confirm you didn't mean to put it in a specific package.
 

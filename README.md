@@ -7,8 +7,8 @@ The Gatsby Carbon theme includes all the configuration you need to build a beaut
 ## Resources
 
 - [Contribution guidelines](.github/CONTRIBUTING.md)
-- [Getting Started](https://@fr8/gatsby-workspace.now.sh/getting-started)
-- [Guides](https://@fr8/gatsby-workspace.now.sh/guides/configuration)
-- [Components](https://@fr8/gatsby-workspace.now.sh/components/markdown)
-- [Demo](https://@fr8/gatsby-workspace.now.sh/demo)
-- [Gallery](https://@fr8/gatsby-workspace.now.sh/gallery)
+- [Getting Started](https://freight-trust-gatsby-workspace.now.sh/getting-started)
+- [Guides](https://freight-trust-gatsby-workspace.now.sh/guides/configuration)
+- [Components](https://freight-trust-gatsby-workspace.now.sh/components/markdown)
+- [Demo](https://freight-trust-gatsby-workspace.now.sh/demo)
+- [Gallery](https://freight-trust-gatsby-workspace.now.sh/gallery)

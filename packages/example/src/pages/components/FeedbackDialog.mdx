@@ -16,14 +16,14 @@ The Feedback button only becomes visible once you've supplied an `onSubmit`
 handler. To do that, we'll need to shadow the `FeedbackDialog` component.
 
 1. Create a new javascript file under
-   `src/@fr8/gatsby-workspace/components/FeedbackDialog/FeedbackDialog.js`.
+   `src/freight-trust-gatsby-workspace/components/FeedbackDialog/FeedbackDialog.js`.
    Matching the filepath exactly is important here.
 
 2. Copy the following snippet into your new file
 
 ```jsx
 import React from 'react';
-import ThemeFeedbackDialog from '@fr8/gatsby-workspace/src/components/FeedbackDialog/FeedbackDialog';
+import ThemeFeedbackDialog from 'freight-trust-gatsby-workspace/src/components/FeedbackDialog/FeedbackDialog';
 
 const FeedbackDialog = ({ props }) => {
   const onSubmit = (data) => {

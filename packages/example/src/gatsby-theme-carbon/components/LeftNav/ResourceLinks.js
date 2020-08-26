@@ -1,5 +1,5 @@
 import React from 'react';
-import ResourceLinks from '@fr8/gatsby-workspace/src/components/LeftNav/ResourceLinks';
+import ResourceLinks from 'freight-trust-gatsby-workspace/src/components/LeftNav/ResourceLinks';
 
 const links = [
   {

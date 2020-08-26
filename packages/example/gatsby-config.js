@@ -18,7 +18,7 @@ module.exports = {
       },
     },
     {
-      resolve: '@fr8/gatsby-workspace',
+      resolve: 'freight-trust-gatsby-workspace',
       options: {
         mediumAccount: 'carbondesign',
         repository: {

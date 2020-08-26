@@ -22,7 +22,7 @@ possible and not forgo future updates.
 
 1. Open a
    [quick issue](https://github.com/freight-trust/gatsby-workspace/issues/new)
-   in the @fr8/gatsby-workspace repo to make sure we’re not working on your
+   in the freight-trust-gatsby-workspace repo to make sure we’re not working on your
    change.
 
 1. Shadow as few files as you can to achieve your goal. If you can shadow just a
@@ -34,14 +34,14 @@ possible and not forgo future updates.
 ## Shadowing basics
 
 In order to shadow a component in the theme, all you need to do is place a file
-in the `src/@fr8/gatsby-workspace` in your project. The file should have the same
+in the `src/freight-trust-gatsby-workspace` in your project. The file should have the same
 name as the file you’re shadowing.
 
 In order to place your own title in the Header component:
 
 1. Create a file at the same directory as the component you wish to shadow.
-   Everything after `src/@fr8/gatsby-workspace/` refers to the
-   [src directory of @fr8/gatsby-workspace](https://github.com/freight-trust/gatsby-workspace/tree/main/packages/@fr8/gatsby-workspace/src).
+   Everything after `src/freight-trust-gatsby-workspace/` refers to the
+   [src directory of freight-trust-gatsby-workspace](https://github.com/freight-trust/gatsby-workspace/tree/main/packages/freight-trust-gatsby-workspace/src).
 
 1. Import the component you wish to shadow by providing the full url pointing at
    the component within the theme
@@ -57,7 +57,7 @@ In order to place your own title in the Header component:
 
 ```jsx
 import React from 'react';
-import Header from '@fr8/gatsby-workspace/src/components/Header';
+import Header from 'freight-trust-gatsby-workspace/src/components/Header';
 
 const CustomHeader = (props) => (
   <Header {...props}>
@@ -75,6 +75,6 @@ you’ll definitely need to shadow.
 
 | Component     | Path                                                                                                                                                                                                                | Description                                                                        |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| ResourceLinks | [`src/@fr8/gatsby-workspace/components/LeftNav/ResourceLinks.js`](https://github.com/freight-trust/gatsby-workspace/blob/main/packages/example/src/@fr8/gatsby-workspace/components/LeftNav/ResourceLinks.js) | The bottom links on the SideNav, pass `shouldOpenNewTabs` to open links externally |
-| Footer        | [`src/@fr8/gatsby-workspace/components/Footer.js`](https://github.com/freight-trust/gatsby-workspace/blob/main/packages/example/src/@fr8/gatsby-workspace/components/Footer.js)                               | The links and content at the bottom of each page                                   |
-| Header        | [`src/@fr8/gatsby-workspace/components/Header.js`](https://github.com/freight-trust/gatsby-workspace/blob/main/packages/example/src/@fr8/gatsby-workspace/components/Header.js)                               | The text in the top left corner of the UI Shell                                    |
+| ResourceLinks | [`src/freight-trust-gatsby-workspace/components/LeftNav/ResourceLinks.js`](https://github.com/freight-trust/gatsby-workspace/blob/main/packages/example/src/freight-trust-gatsby-workspace/components/LeftNav/ResourceLinks.js) | The bottom links on the SideNav, pass `shouldOpenNewTabs` to open links externally |
+| Footer        | [`src/freight-trust-gatsby-workspace/components/Footer.js`](https://github.com/freight-trust/gatsby-workspace/blob/main/packages/example/src/freight-trust-gatsby-workspace/components/Footer.js)                               | The links and content at the bottom of each page                                   |
+| Header        | [`src/freight-trust-gatsby-workspace/components/Header.js`](https://github.com/freight-trust/gatsby-workspace/blob/main/packages/example/src/freight-trust-gatsby-workspace/components/Header.js)                               | The text in the top left corner of the UI Shell                                    |

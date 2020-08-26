@@ -8,7 +8,7 @@ description: Guide for configuring the theme’s various settings
 Gatsby themes allow you to override configuration from the theme by defining the
 same property in your `gatsby-config.js` at the root of your project. You can
 see the default configuration provided by the theme’s
-[`gatsby-config.js`](https://github.com/freight-trust/gatsby-workspace/blob/main/packages/@fr8/gatsby-workspace/gatsby-config.js)
+[`gatsby-config.js`](https://github.com/freight-trust/gatsby-workspace/blob/main/packages/freight-trust-gatsby-workspace/gatsby-config.js)
 file.
 
 </PageDescription>
@@ -44,7 +44,7 @@ module.exports = {
     keywords: 'gatsby,theme,carbon',
     lang: 'en',
   },
-  plugins: ['@fr8/gatsby-workspace'],
+  plugins: ['freight-trust-gatsby-workspace'],
 };
 ```
 
@@ -59,7 +59,7 @@ siteMetadata: {
     title: 'Gatsby Theme Carbon',
   },
   plugins: [
-    '@fr8/gatsby-workspace',
+    'freight-trust-gatsby-workspace',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -89,7 +89,7 @@ should be…
 ```js
 plugins: [
     {
-      resolve: '@fr8/gatsby-workspace',
+      resolve: 'freight-trust-gatsby-workspace',
       options: {
         iconPath: './src/images/custom-icon-512.jpg'
       },
@@ -105,7 +105,7 @@ specify italics for the additional weights if needed.
 ```js
 plugins: [
     {
-      resolve: '@fr8/gatsby-workspace',
+      resolve: 'freight-trust-gatsby-workspace',
       options: {
 		// will get added to default [300, 400, 600]
         additionalFontWeights: ['200', '200i]
@@ -126,7 +126,7 @@ thresholds.
 module.exports = {
   plugins: [
     {
-      resolve: '@fr8/gatsby-workspace',
+      resolve: 'freight-trust-gatsby-workspace',
       options: {
         withWebp: true, // true, false (default false)
         imageQuality: 50, // 0-100 (default 75)
@@ -150,7 +150,7 @@ option to false.
 ```js
   plugins: [
     {
-      resolve: '@fr8/gatsby-workspace',
+      resolve: 'freight-trust-gatsby-workspace',
       options: {
         isSearchEnabled: false
       },
@@ -185,7 +185,7 @@ will lose the ResourceLinks that sit directly below the left nav.
 ```js
   plugins: [
     {
-      resolve: '@fr8/gatsby-workspace',
+      resolve: 'freight-trust-gatsby-workspace',
       options: {
         navigationStyle: 'header',
       },
@@ -222,7 +222,7 @@ options object is now empty, delete it all together.
 ```js
   plugins: [
     {
-      resolve: '@fr8/gatsby-workspace',
+      resolve: 'freight-trust-gatsby-workspace',
       options: {
         repository: {
           baseUrl: 'https://github.com/freight-trust/gatsby-workspace',
@@ -243,7 +243,7 @@ In order to change the source account for the
 ```js
 plugins: [
   {
-    resolve: '@fr8/gatsby-workspace',
+    resolve: 'freight-trust-gatsby-workspace',
     options: {
       mediumAccount: 'carbondesign',
     },
@@ -271,7 +271,7 @@ plugins: [
 ```js
 plugins: [
     {
-      resolve: '@fr8/gatsby-workspace',
+      resolve: 'freight-trust-gatsby-workspace',
       options: {
         additionalFontWeights: ['200', '200i'],
         mdxExtensions: ['.mdx'],
@@ -313,7 +313,7 @@ project:
 ```js
  plugins: [
     {
-      resolve: '@fr8/gatsby-workspace',
+      resolve: 'freight-trust-gatsby-workspace',
       options: {
         repository: {
           baseUrl: 'https://github.com/freight-trust/gatsby-workspace',
@@ -370,7 +370,7 @@ array in the theme options.
 ```js
  plugins: [
     {
-      resolve: '@fr8/gatsby-workspace',
+      resolve: 'freight-trust-gatsby-workspace',
       options: {
         remarkPlugins: [require("remark-grid-tables")],
       },

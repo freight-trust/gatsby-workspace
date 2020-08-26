@@ -1,6 +1,6 @@
 import React from 'react';
-import { HomepageBanner, HomepageCallout } from '@fr8/gatsby-workspace';
-import HomepageTemplate from '@fr8/gatsby-workspace/src/templates/Homepage';
+import { HomepageBanner, HomepageCallout } from 'freight-trust-gatsby-workspace';
+import HomepageTemplate from 'freight-trust-gatsby-workspace/src/templates/Homepage';
 import { calloutLink } from './Homepage.module.scss';
 
 import Carbon from '../../images/carbon.jpg';
@@ -10,14 +10,14 @@ const FirstLeftText = () => <p>Callout component</p>;
 const FirstRightText = () => (
   <p>
     This is a callout component. You can edit the contents by updating the{' '}
-    <a href="https://github.com/freight-trust/gatsby-workspace/blob/5fe12de31bb19fbfa2cab7c69cd942f55aa06f79/packages/example/src/@fr8/gatsby-workspace/templates/Homepage.js">
+    <a href="https://github.com/freight-trust/gatsby-workspace/blob/5fe12de31bb19fbfa2cab7c69cd942f55aa06f79/packages/example/src/freight-trust-gatsby-workspace/templates/Homepage.js">
       pre-shadowed homepage template
     </a>
     . You can also provide <code>color</code> and <code>backgroundColor</code>{' '}
     props to suit your theme.
     <a
       className={calloutLink}
-      href="https://github.com/freight-trust/gatsby-workspace/blob/main/packages/example/src/@fr8/gatsby-workspace/templates/Homepage.js">
+      href="https://github.com/freight-trust/gatsby-workspace/blob/main/packages/example/src/freight-trust-gatsby-workspace/templates/Homepage.js">
       Homepage source →
     </a>
   </p>
@@ -31,7 +31,7 @@ const SecondRightText = () => (
     props to the template or writing your own template.
     <a
       className={calloutLink}
-      href="https://github.com/freight-trust/gatsby-workspace/blob/main/packages/example/src/@fr8/gatsby-workspace/templates/Homepage.js">
+      href="https://github.com/freight-trust/gatsby-workspace/blob/main/packages/example/src/freight-trust-gatsby-workspace/templates/Homepage.js">
       Homepage source →
     </a>
   </p>

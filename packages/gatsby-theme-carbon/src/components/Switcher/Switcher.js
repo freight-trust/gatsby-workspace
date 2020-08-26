@@ -17,7 +17,7 @@
  */
 import React, { useContext } from "react";
 import cx from "classnames";
-import NavContext from "@fr8/gatsby-workspace/src/util/context/NavContext";
+import NavContext from "freight-trust-gatsby-workspace/src/util/context/NavContext";
 import { nav, open, divider, link, linkDisabled } from "./Switcher.module.scss";
 
 const Switcher = ({ children }) => {

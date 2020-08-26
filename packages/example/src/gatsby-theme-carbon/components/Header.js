@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '@fr8/gatsby-workspace/src/components/Header';
+import Header from 'freight-trust-gatsby-workspace/src/components/Header';
 
 const CustomHeader = (props) => (
   <Header {...props}>

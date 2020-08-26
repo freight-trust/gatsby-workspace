@@ -27,9 +27,9 @@ import {
 import { AppSwitcher20, Close20 } from "@carbon/icons-react";
 import cx from "classnames";
 
-import HeaderNav from "@fr8/gatsby-workspace/src/components/HeaderNav/HeaderNav";
-import NavContext from "@fr8/gatsby-workspace/src/util/context/NavContext";
-import useMetadata from "@fr8/gatsby-workspace/src/util/hooks/useMetadata";
+import HeaderNav from "freight-trust-gatsby-workspace/src/components/HeaderNav/HeaderNav";
+import NavContext from "freight-trust-gatsby-workspace/src/util/context/NavContext";
+import useMetadata from "freight-trust-gatsby-workspace/src/util/hooks/useMetadata";
 
 import {
   header,
@@ -38,7 +38,7 @@ import {
   headerName,
   headerButton,
   switcherButton,
-} from "@fr8/gatsby-workspace/src/components/Header/Header.module.scss";
+} from "freight-trust-gatsby-workspace/src/components/Header/Header.module.scss";
 
 import {
   navLists,

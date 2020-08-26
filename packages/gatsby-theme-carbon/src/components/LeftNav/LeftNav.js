@@ -20,14 +20,14 @@
 import React, { useContext } from "react";
 import classnames from "classnames";
 import { SideNav, SideNavItems } from "carbon-components-react";
-import { useNavItems } from "@fr8/gatsby-workspace/src/components/LeftNav/LeftNavItemProvider";
+import { useNavItems } from "freight-trust-gatsby-workspace/src/components/LeftNav/LeftNavItemProvider";
 
-import NavContext from "@fr8/gatsby-workspace/src/util/context/NavContext";
-import LeftNavItem from "@fr8/gatsby-workspace/src/components/LeftNav/LeftNavItem";
-import LeftNavResourceLinks from "@fr8/gatsby-workspace/src/components/LeftNav/ResourceLinks";
+import NavContext from "freight-trust-gatsby-workspace/src/util/context/NavContext";
+import LeftNavItem from "freight-trust-gatsby-workspace/src/components/LeftNav/LeftNavItem";
+import LeftNavResourceLinks from "freight-trust-gatsby-workspace/src/components/LeftNav/ResourceLinks";
 
-import LeftNavWrapper from "@fr8/gatsby-workspace/src/components/LeftNav/LeftNavWrapper";
-import { sideNavDark } from "@fr8/gatsby-workspace/src/components/LeftNav/LeftNav.module.scss";
+import LeftNavWrapper from "freight-trust-gatsby-workspace/src/components/LeftNav/LeftNavWrapper";
+import { sideNavDark } from "freight-trust-gatsby-workspace/src/components/LeftNav/LeftNav.module.scss";
 
 const LeftNav = (props) => {
   const { leftNavIsOpen } = useContext(NavContext);

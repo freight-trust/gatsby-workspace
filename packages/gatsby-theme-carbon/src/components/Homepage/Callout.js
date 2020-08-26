@@ -17,7 +17,7 @@
  */
 import React from "react";
 import styled from "@emotion/styled";
-import { Grid, Column, Row } from "@fr8/gatsby-workspace";
+import { Grid, Column, Row } from "freight-trust-gatsby-workspace";
 
 import { grid, row, firstColumn, secondColumn } from "./Callout.module.scss";
 

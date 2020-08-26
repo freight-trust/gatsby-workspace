@@ -17,7 +17,7 @@
  */
 import React from "react";
 import { Button } from "carbon-components-react";
-import { Row, Column } from "@fr8/gatsby-workspace";
+import { Row, Column } from "freight-trust-gatsby-workspace";
 import { useAuth } from "react-use-auth";
 import cx from "classnames";
 import {

@@ -2,7 +2,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/packages/@fr8/gatsby-workspace"
+    directory: "/packages/freight-trust-gatsby-workspace"
     schedule:
       interval: "daily"
       time: "17:29"

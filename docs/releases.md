@@ -20,11 +20,11 @@ on releasing the patch for the reasons mentioned above.
 3. Determine whether the release is a patch, minor (feature) or major
    (breaking). You do this by looking at all of the commits since the last
    release:
-   [https://github.com/carbon-design-system/@fr8/gatsby-workspace/commits/main](https://github.com/carbon-design-system/@fr8/gatsby-workspace/commits/main)
+   [https://github.com/carbon-design-system/freight-trust-gatsby-workspace/commits/main](https://github.com/carbon-design-system/freight-trust-gatsby-workspace/commits/main)
 4. Type `yarn release X` where `X` is `patch`, `minor`, or `major` from step 2
 5. `git push upstream main --follow-tags`
 6. Navigate to the theme releases pages and draft a new release:
-   [https://github.com/carbon-design-system/@fr8/gatsby-workspace/releases/new](https://github.com/carbon-design-system/@fr8/gatsby-workspace/releases/new)
+   [https://github.com/carbon-design-system/freight-trust-gatsby-workspace/releases/new](https://github.com/carbon-design-system/freight-trust-gatsby-workspace/releases/new)
    1. For tag version, choose the latest tag that was just published
    2. Leave title empty
    3. Follow the previous release as a template indicating new features and

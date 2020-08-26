@@ -1,5 +1,5 @@
 import React from 'react';
-import ThemeFeedbackDialog from '@fr8/gatsby-workspace/src/components/FeedbackDialog/FeedbackDialog';
+import ThemeFeedbackDialog from 'freight-trust-gatsby-workspace/src/components/FeedbackDialog/FeedbackDialog';
 
 const FeedbackDialog = ({ props }) => {
   const onSubmit = (data) => {

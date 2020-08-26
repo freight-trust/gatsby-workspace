@@ -16,7 +16,7 @@
  *  limitations under the License.
  */
 import React from "react";
-import { Row, Column } from "@fr8/gatsby-workspace";
+import { Row, Column } from "freight-trust-gatsby-workspace";
 
 import { column, row, grid } from "./Banner.module.scss";
 

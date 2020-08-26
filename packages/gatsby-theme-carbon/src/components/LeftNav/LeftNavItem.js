@@ -25,10 +25,10 @@ import {
   SideNavMenuItem,
 } from "carbon-components-react";
 
-import styles from "@fr8/gatsby-workspace/src/components/LeftNav/LeftNav.module.scss";
+import styles from "freight-trust-gatsby-workspace/src/components/LeftNav/LeftNav.module.scss";
 
-import NavContext from "@fr8/gatsby-workspace/src/util/context/NavContext";
-import usePathprefix from "@fr8/gatsby-workspace/src/util/hooks/usePathprefix";
+import NavContext from "freight-trust-gatsby-workspace/src/util/context/NavContext";
+import usePathprefix from "freight-trust-gatsby-workspace/src/util/hooks/usePathprefix";
 
 const LeftNavItem = (props) => {
   const { items, category, hasDivider, isSpace } = props;

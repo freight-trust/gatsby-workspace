@@ -38,4 +38,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.21.2](https://github.com/freight-trust/gatsby-workspace/compare/v1.21.1...v1.21.2) (2020-03-05)
 
-**Note:** Version bump only for package @fr8/gatsby-workspace
+**Note:** Version bump only for package freight-trust-gatsby-workspace

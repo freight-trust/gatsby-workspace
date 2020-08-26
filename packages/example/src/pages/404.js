@@ -1,5 +1,5 @@
 import React from 'react';
-import { FourOhFour } from '@fr8/gatsby-workspace';
+import { FourOhFour } from 'freight-trust-gatsby-workspace';
 
 const links = [
   { href: '/components/markdown', text: 'Markdown' },

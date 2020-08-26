@@ -1,14 +1,14 @@
 /* eslint-disable import/no-unresolved */
 import React, { useLayoutEffect } from "react";
 
-import LeftNav from "@fr8/gatsby-workspace/src/components/LeftNav";
-import Meta from "@fr8/gatsby-workspace/src/components/Meta";
-import Header from "@fr8/gatsby-workspace/src/components/Header";
-import Switcher from "@fr8/gatsby-workspace/src/components/Switcher";
-import Footer from "@fr8/gatsby-workspace/src/components/Footer";
-import Container from "@fr8/gatsby-workspace/src/components/Container";
+import LeftNav from "freight-trust-gatsby-workspace/src/components/LeftNav";
+import Meta from "freight-trust-gatsby-workspace/src/components/Meta";
+import Header from "freight-trust-gatsby-workspace/src/components/Header";
+import Switcher from "freight-trust-gatsby-workspace/src/components/Switcher";
+import Footer from "freight-trust-gatsby-workspace/src/components/Footer";
+import Container from "freight-trust-gatsby-workspace/src/components/Container";
 
-import "@fr8/gatsby-workspace/src/styles/index.scss";
+import "freight-trust-gatsby-workspace/src/styles/index.scss";
 
 const Layout = ({
   children,
