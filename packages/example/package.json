@@ -1,7 +1,7 @@
 {
   "name": "example",
   "private": true,
-  "version": "1.27.0",
+  "version": "1.27.1",
   "license": "Apache 2.0",
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0",
@@ -12,7 +12,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@fr8/gatsby-workspace": "^1.27.0",
+    "@fr8/gatsby-workspace": "^1.27.1",
     "gatsby": "^2.24.14",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
