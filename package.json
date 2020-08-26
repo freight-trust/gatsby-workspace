@@ -5,6 +5,9 @@
     "url": "git@github.com:freight-trust/gatsby-workspace.git",
     "type": "git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "Apache 2.0",
   "engines": {
     "node": "12.x"
